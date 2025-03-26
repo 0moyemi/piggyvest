@@ -1,0 +1,235 @@
+.image{
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.motherdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+}
+
+.div1{
+    display: flex;
+    gap: 33px;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a{
+    color: rgb(89, 88, 88);
+    text-decoration: none;
+    margin-top: 28px;
+    font-size: 17px; font-weight: bold;
+}
+
+.div2{
+    margin-right: 200px; margin-top: 10px;
+}
+
+button{
+    padding: 16px 23px;
+    font-size: 16px;
+    font-weight: 400px;
+    border-radius: 15px;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+#b2{
+    color: white;
+    background-color: rgb(18, 18, 51);
+}
+
+.centerdiv{
+    /*display: flex;*/
+    
+}
+
+.content{
+    text-align: center;
+    line-height: 5px;
+    justify-content: center;
+}
+
+.content p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.content span{
+    font-size: 20px;
+}
+
+.cards{
+display: flex;
+gap: 20px;
+margin-top: 30px;
+justify-content: center;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+   /*background-color: rgb(127, 221, 255); */
+   background-color: white;
+    border-radius: 25px;
+    padding: 15px 30px 10px 15px;
+}
+
+.first:hover{
+    background-color: rgb(0, 51, 153);
+    color: white !important;
+    cursor: pointer;
+}
+
+.second:hover{
+    background-color: rgb(50, 150, 255);
+    color: white !important;
+    cursor: pointer;
+}
+
+.third:hover{
+    background-color: rgb(6, 155, 64);
+    color: white !important;
+    cursor: pointer;
+}
+
+.fourth:hover{
+    background-color: rgb(229, 40, 142);
+    color: white !important;
+    cursor: pointer;
+}
+
+.fifth:hover{
+   background-color: rgb(12, 24, 37);
+    color: white !important;
+    cursor: pointer;
+}
+
+.sixth:hover{
+    background-color: rgb(255, 120, 60);
+    color: white !important;
+    cursor: pointer;
+}
+
+.card p{
+    font-size: 30px;
+    font-weight: bold;
+    /*color: rgb(4, 4, 105);*/
+}
+
+.first p{
+    color: #04046A;
+}
+
+.second p{
+    color: #4A80F5
+}
+
+.third p{
+    color: #019101;
+}
+
+.fourth p{
+ color: #CF3952;
+}
+
+.fifth p{
+    color: #0C1825;
+}
+
+.sixth p{
+    color: #E1783C;
+}
+
+.card:hover p{
+    color: white !important;
+}
+
+.card span{
+    font-size: 18px;
+}
+
+#id{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.imageandtext1{
+    display: flex;
+    position: relative;
+    bottom: -200px;
+}
+
+.imageandtext2{
+    display: flex;
+    position: relative;
+    bottom: -180px;
+}
+
+.imageandtext3{
+  display: flex;
+  position: relative;
+  bottom: -50%;
+}
+
+.imageandtext5{
+    display: flex;
+  position: relative;
+  bottom: -50%;
+}
+
+.card:hover p, .card:hover span{
+    color: white !important;
+}
+
+.card:hover #pic1{
+    content: url('../Images/white\ arrow\ logo.png');
+}
+
+.card:hover #pic2{
+    content: url('../Images/white\ arrow\ logo.png'); 
+}
+
+.card:hover #pic3{
+    content: url('../Images/white\ arrow\ logo.png'); 
+}
+
+.card:hover #pic4{
+    content: url('../Images/white\ arrow\ logo.png');
+}
+
+.card:hover #pic5{
+    content: url('../Images/white\ arrow\ logo.png');
+}
+
+.card:hover #pic6{
+    content: url('../Images/white\ arrow\ logo.png');
+}
+
+.first:hover, #id1{
+    color: #04046A;
+}
+
+#id2{
+    color: #4A80F5;
+}
+
+#id3{
+    color: #019101;
+}
+
+#id4{
+    color: #CF3952;
+}
+#id5{
+    color: #0C1825;
+}
+#id6{
+    color: #E1783C;
+}
